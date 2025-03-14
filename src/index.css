@@ -1,13 +1,98 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.actodo-bg
+{
+  background-color: black;
+  padding: 50px;
+
+}
+.head
+{
+  margin-bottom: 20px;
+}
+.head_container
+{
+  background-color: rgb(228, 228, 228);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card_conatiner
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.card 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  gap: 10px;
+  margin-bottom: 20px;
+  
+    
+}
+
+.todo
+{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+.todoform h1
+{
+  margin-bottom: 10px;
+  
+}
+.todoform input
+{
+  background: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+.todoform button
+{
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+.todolist
+{
+  background-color: #BDB4EA;
+  padding: 10px;
+  border-radius: 5px;
+}
+.todoitem
+{
+  display: flex;
+  justify-content: space-between;
+}
+.delete
+{
+  background: none;
+  border: none;
+  color:maroon;
 }
